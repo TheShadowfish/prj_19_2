@@ -16,14 +16,16 @@
 
 </form>
 <br><br>
-<!-- Пример: подключение статического CSS-файла -->
-<link rel="stylesheet" type="text/css" href="/static/main/static/css/your_stylesheet.css">
+{% load static %}
 
-<!-- Пример: подключение статического JS-файла -->
-<script type="text/javascript" src="/static/main/static/js/your_script.js"></script>
+<!-- Пример: подключение статического CSS-файла  -->
+<link rel="stylesheet" type="text/css" href="/static/main/css/your_stylesheet.css">
+
+<!-- Пример: подключение статического JS-файла  -->
+<script type="text/javascript" src="/static/main/js/your_script.js"></script>
 
 <!-- Пример: вставка статического изображения -->
-<img src="/static/main/static/images/your_image.png" alt="Your Image">
+<img src="/static/main/images/your_image.png" alt="Your Image">
 
 
 </body>
